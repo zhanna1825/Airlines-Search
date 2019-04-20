@@ -1,0 +1,216 @@
+body {
+    font-family: Helvetica , sans-serif;
+    -webkit-font-smoothing: antialiased;
+    background-image: url('bk18.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+h3 {
+    text-align: center;
+}
+
+label {
+    text-align: center;
+    padding: 1px;
+}
+
+.form {
+    border: black;
+    display: inline-block;
+    max-width: 700px;
+    min-width: 290px;
+    box-sizing: border-box;
+    padding: 30px 25px;
+    background-color: #f49e42;
+    margin: 20px 20px 20px;
+    opacity: 0.8;
+    border-radius: 22px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+}
+
+header{
+    background-color: blanchedalmond;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: arial, helvetica;
+    width: 600px;
+    margin: 50px auto;
+    text-decoration: underline;
+    text-align: center;
+
+}
+ p {
+text-align: center;
+ }
+
+ .filter{
+    display: inline-block;
+    max-width: 700px;
+    min-width: 280px;
+    box-sizing: border-box;
+    padding: 17px 25px;
+    text-align: center;
+    background-color: #f49e42;
+    border-radius: 40px;
+    margin: 25px 120px;      
+ }
+ 
+ .main { 
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    max-width: 700px;
+    min-width: 367px;
+    box-sizing: border-box;
+    padding: 30px 25px;
+    background-color: #f49e42;;
+    border-radius: 40px;
+    margin-left: 38%;
+    margin-right: 80%;
+    margin-top: 20px;
+    opacity: 0.7;
+ }
+
+
+.knockout {
+            background-color: blanchedalmond;
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            font-weight: bold;
+            font-size: 50px;
+            font-family: arial, helvetica;
+            width: 600px;
+            margin: 50px auto;
+            text-decoration: underline;
+            text-align: center;
+        }
+        
+  .btn {
+    margin-top: 35px;
+    background-color: white;
+    border: 1px solid #f49e42;
+    line-height: 0;
+    font-size: 17px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 20px 15px;
+    border-radius: 60px;
+    color: #f49e42;
+    font-weight: 100;
+    letter-spacing: 0.01em;
+    position: relative;
+    z-index: 1;
+    margin-left: 45%;
+    margin-right: 45%;
+  }
+
+    :hover {
+    color: black;
+  }
+
+  .btn1 {
+    margin-top: 35px;
+    background-color: white;
+    border: 1px solid #998f85;
+    line-height: 0;
+    font-size: 17px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 20px 15px;
+    border-radius: 60px;
+    color: #f49e42;
+    font-weight: 100;
+    letter-spacing: 0.01em;
+    position: relative;
+    z-index: 1;
+    margin-left: 46.5%;
+    margin-right: 47%;
+  }
+
+    :hover {
+    color: black;
+  }
+  
+.type {
+    display: inline;
+}
+      
+.price {
+ margin-left: 50%;
+}
+.destination1 {
+    font-weight: 800;
+
+}
+
+input[type="date"], [type="text"] {
+      
+      font-size: 17px;
+      display: block;
+      box-sizing: border-box;
+      border-radius: 60px;
+      font-weight: 100;
+      letter-spacing: 0.01em;
+      position: relative;
+      z-index: 1;
+      margin-left:21%;
+}
+      
+      :valid {
+        margin-top: 14px;
+      }
+      :focus ~ label {
+      translate: ( 0 , -35px )
+}
+
+:valid ~ label {
+
+text-transform: uppercase;
+font-style: italic;
+transform: ( translate( 5px , -35px ) scale(0.6))
+}
+
+.origin {
+    width: 45%;
+
+}
+
+.destination {
+    width: 45%;
+
+}
+
+.btn2 {
+    margin-top: 35px;
+    background-color: white;
+    border: 1px solid #f49e42;
+    line-height: 0;
+    font-size: 17px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 20px 15px;
+    border-radius: 60px;
+    color: #f49e42;
+    font-weight: 100;
+    letter-spacing: 0.01em;
+    position: relative;
+    z-index: 1;
+    margin-left: 28%;
+    margin-right: 28%;
+}
+
+
+:hover {
+    color: black;
+  }
+  
